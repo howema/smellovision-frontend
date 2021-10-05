@@ -6,6 +6,8 @@
       <router-link to="/about">About</router-link>
       |
       <router-link to="/shows">All shows</router-link>
+      |
+      <router-link to="/shows/new">New show</router-link>
     </div>
     <router-view />
   </div>

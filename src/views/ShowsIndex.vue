@@ -11,7 +11,6 @@
       <p>Seasons: {{ show.seasons }}</p>
       <p>Network: {{ show.network }}</p>
       <p>Favorite: {{ show.favorite }}</p>
-      <p>Image: {{ show.image }}</p>
     </div>
   </div>
 </template>

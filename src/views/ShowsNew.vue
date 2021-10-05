@@ -22,7 +22,7 @@
       Image:
       <input type="text" v-model="newShowParams.image" />
       User:
-      <input type="text" v-model="newShowParams.user.user_id" />
+      <input type="text" v-model="newShowParams.user_id" />
       <input type="submit" value="Create" />
     </form>
   </div>
