@@ -4,6 +4,8 @@
     <div v-for="show in shows" v-bind:key="show.id">
       <h2>{{ show.name }}</h2>
       <img v-bind:src="show.image" v-bind:alt="show.title" />
+      <p></p>
+      <router-link v-bind:to="`/shows/${show.id}`">More details</router-link>
       <p>Title: {{ show.title }}</p>
       <p>Year: {{ show.year }}</p>
       <p>Description: {{ show.description }}</p>
@@ -11,6 +13,7 @@
       <p>Seasons: {{ show.seasons }}</p>
       <p>Network: {{ show.network }}</p>
       <p>Favorite: {{ show.favorite }}</p>
+      <p>User: {{ show.user_id }}</p>
     </div>
   </div>
 </template>
