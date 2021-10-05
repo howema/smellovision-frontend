@@ -3,9 +3,10 @@
     <h1>All Shows</h1>
     <div v-for="show in shows" v-bind:key="show.id">
       <h2>{{ show.name }}</h2>
-      <img v-bind:src="show.image" v-bind:alt="show.title" />
       <p></p>
-      <router-link v-bind:to="`/shows/${show.id}`">More details</router-link>
+      <router-link v-bind:to="`/shows/${show.id}`">
+        <img v-bind:src="show.image" v-bind:alt="show.title" />
+      </router-link>
       <p>Title: {{ show.title }}</p>
       <p>Year: {{ show.year }}</p>
       <p>Description: {{ show.description }}</p>
