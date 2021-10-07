@@ -8,6 +8,12 @@
       <router-link to="/shows">All shows</router-link>
       |
       <router-link to="/shows/new">New show</router-link>
+      |
+      <router-link to="/signup">Signup</router-link>
+      |
+      <router-link to="/login">Login</router-link>
+      |
+      <router-link to="/logout">Logout</router-link>
     </div>
     <router-view />
   </div>
